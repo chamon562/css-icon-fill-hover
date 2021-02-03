@@ -60,6 +60,11 @@ ul li:nth-child(3)::before{
     color:red;
     border-bottom: 4px solid red;
 }
+ul li:nth-child(4)::before{
+    content: "\f092";
+    color: purple;
+    border-bottom: 4px solid purple;
+}
 
 ul li:hover:before{
     height: 100%;
